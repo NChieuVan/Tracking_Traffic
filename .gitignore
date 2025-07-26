@@ -1,5 +1,9 @@
-# --- Python ---
+# --- Python --- Bỏ qua file biên dịch Python
+
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 # --- Virtual Environments ---
 .env
 *.env
