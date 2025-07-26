@@ -1,0 +1,55 @@
+# --- Python ---
+__pycache__/
+# --- Virtual Environments ---
+.env
+*.env
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+
+# --- VSCode / PyCharm / IDEs ---
+.vscode/
+.idea/
+
+# --- Logs, Outputs ---
+*.log
+logs/
+output/
+runs/
+*.out
+*.err
+
+# --- Data Files ---
+data/raw/
+data/processed/
+data/*.csv
+data/*.zip
+*.h5
+*.hdf5
+*.sqlite
+*.db
+*.npy
+*.npz
+
+# --- Model Checkpoints ---
+app/model/*.pt
+app/model/*.pth
+app/model/*.ckpt
+app/model/*.onnx
+
+# --- OS / Misc ---
+.DS_Store
+Thumbs.db
+
+# --- Docker ---
+*.pid
+docker-compose.override.yml
+
+# --- CI/CD secrets (tùy chọn) ---
+secrets/
+token.json
+
+# --- Other (tùy project) ---
+*.bak
+*.swp
+*.tmp
